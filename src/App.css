@@ -104,17 +104,21 @@ nav{
 }
 .cardContainer{
     display: flex;
+    flex-wrap: wrap;
    
 }
 .menu-items{
-    max-width: 330px;
+    max-width: 290px;
     height: 450px;
-    margin: 10px 10px 10px 100px;
+    /* margin: 10px 10px 80px 130px; */
+    margin-right:50px ;
+    margin-bottom: 50px;
     background-color: #a9c8be;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
     position: relative;
+
 }
 
 .menu-items img{
@@ -136,10 +140,37 @@ nav{
     left: 10px;
     cursor: pointer;
 }
+.cardContainer{
+    margin: 100px 200px;
+}
 
 .MenuHead{
     margin: 50px  ;
 }
+
+
+.FooterContainer{
+    margin-left: 130px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.FooterContainer img{
+    width: 200px;
+} 
+
+.Lists{
+    list-style: none;
+    margin: 0px 50px 50px 50px;
+}
+.Lists li {
+    margin: 10px;
+}
+.Lists li a{
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
 
 
 
